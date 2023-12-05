@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BDC8F71190755CEBDEB9F02 /* Pods_HouseSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC77FEF8E2E0EC3E6AE09F9E /* Pods_HouseSharing.framework */; };
+		4CCF497B2ABEC56E00FC8DAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF497A2ABEC56E00FC8DAE /* AppDelegate.swift */; };
+		4CCF497D2ABEC56E00FC8DAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF497C2ABEC56E00FC8DAE /* SceneDelegate.swift */; };
+		4CCF497F2ABEC56E00FC8DAE /* HouseListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF497E2ABEC56E00FC8DAE /* HouseListingViewController.swift */; };
+		4CCF49822ABEC56E00FC8DAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF49802ABEC56E00FC8DAE /* Main.storyboard */; };
+		4CCF49842ABEC56F00FC8DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF49832ABEC56F00FC8DAE /* Assets.xcassets */; };
+		4CCF49872ABEC56F00FC8DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF49852ABEC56F00FC8DAE /* LaunchScreen.storyboard */; };
+		4CCF49902ABEC65400FC8DAE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4CCF498F2ABEC65400FC8DAE /* Alamofire */; };
+		4CCF49932ABED18100FC8DAE /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 4CCF49922ABED18100FC8DAE /* SwiftSoup */; };
+		4CCF49952ABED67A00FC8DAE /* HouseListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF49942ABED67A00FC8DAE /* HouseListingTableViewCell.swift */; };
+		4CCF49972ABED99B00FC8DAE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF49962ABED99B00FC8DAE /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B393527E342270F231BE8EC /* Pods-HouseSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseSharing.release.xcconfig"; path = "Target Support Files/Pods-HouseSharing/Pods-HouseSharing.release.xcconfig"; sourceTree = "<group>"; };
+		455B980DE6C0C365761E5514 /* Pods-HouseSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HouseSharing.debug.xcconfig"; path = "Target Support Files/Pods-HouseSharing/Pods-HouseSharing.debug.xcconfig"; sourceTree = "<group>"; };
+		4CCF49772ABEC56E00FC8DAE /* HouseSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCF497A2ABEC56E00FC8DAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CCF497C2ABEC56E00FC8DAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4CCF497E2ABEC56E00FC8DAE /* HouseListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListingViewController.swift; sourceTree = "<group>"; };
+		4CCF49812ABEC56E00FC8DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CCF49832ABEC56F00FC8DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCF49862ABEC56F00FC8DAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CCF49882ABEC56F00FC8DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCF49942ABED67A00FC8DAE /* HouseListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListingTableViewCell.swift; sourceTree = "<group>"; };
+		4CCF49962ABED99B00FC8DAE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DC77FEF8E2E0EC3E6AE09F9E /* Pods_HouseSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HouseSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCF49742ABEC56E00FC8DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCF49902ABEC65400FC8DAE /* Alamofire in Frameworks */,
+				4CCF49932ABED18100FC8DAE /* SwiftSoup in Frameworks */,
+				4BDC8F71190755CEBDEB9F02 /* Pods_HouseSharing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCF496E2ABEC56E00FC8DAE = {
+			isa = PBXGroup;
+			children = (
+				4CCF49792ABEC56E00FC8DAE /* HouseSharing */,
+				4CCF49782ABEC56E00FC8DAE /* Products */,
+				E4A9B06400998B988785A2CF /* Pods */,
+				A68F43E3D45EDF1342949FD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCF49782ABEC56E00FC8DAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF49772ABEC56E00FC8DAE /* HouseSharing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCF49792ABEC56E00FC8DAE /* HouseSharing */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF497A2ABEC56E00FC8DAE /* AppDelegate.swift */,
+				4CCF497C2ABEC56E00FC8DAE /* SceneDelegate.swift */,
+				4CCF497E2ABEC56E00FC8DAE /* HouseListingViewController.swift */,
+				4CCF49962ABED99B00FC8DAE /* DetailViewController.swift */,
+				4CCF49942ABED67A00FC8DAE /* HouseListingTableViewCell.swift */,
+				4CCF49802ABEC56E00FC8DAE /* Main.storyboard */,
+				4CCF49832ABEC56F00FC8DAE /* Assets.xcassets */,
+				4CCF49852ABEC56F00FC8DAE /* LaunchScreen.storyboard */,
+				4CCF49882ABEC56F00FC8DAE /* Info.plist */,
+			);
+			path = HouseSharing;
+			sourceTree = "<group>";
+		};
+		A68F43E3D45EDF1342949FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC77FEF8E2E0EC3E6AE09F9E /* Pods_HouseSharing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4A9B06400998B988785A2CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				455B980DE6C0C365761E5514 /* Pods-HouseSharing.debug.xcconfig */,
+				1B393527E342270F231BE8EC /* Pods-HouseSharing.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCF49762ABEC56E00FC8DAE /* HouseSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCF498B2ABEC56F00FC8DAE /* Build configuration list for PBXNativeTarget "HouseSharing" */;
+			buildPhases = (
+				A6E325D125BFE41FDE10264C /* [CP] Check Pods Manifest.lock */,
+				4CCF49732ABEC56E00FC8DAE /* Sources */,
+				4CCF49742ABEC56E00FC8DAE /* Frameworks */,
+				4CCF49752ABEC56E00FC8DAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseSharing;
+			packageProductDependencies = (
+				4CCF498F2ABEC65400FC8DAE /* Alamofire */,
+				4CCF49922ABED18100FC8DAE /* SwiftSoup */,
+			);
+			productName = HouseSharing;
+			productReference = 4CCF49772ABEC56E00FC8DAE /* HouseSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCF496F2ABEC56E00FC8DAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4CCF49762ABEC56E00FC8DAE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 4CCF49722ABEC56E00FC8DAE /* Build configuration list for PBXProject "HouseSharing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCF496E2ABEC56E00FC8DAE;
+			packageReferences = (
+				4CCF498E2ABEC65400FC8DAE /* XCRemoteSwiftPackageReference "Alamofire.git" */,
+				4CCF49912ABED18100FC8DAE /* XCRemoteSwiftPackageReference "SwiftSoup.git" */,
+			);
+			productRefGroup = 4CCF49782ABEC56E00FC8DAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCF49762ABEC56E00FC8DAE /* HouseSharing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCF49752ABEC56E00FC8DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCF49872ABEC56F00FC8DAE /* LaunchScreen.storyboard in Resources */,
+				4CCF49842ABEC56F00FC8DAE /* Assets.xcassets in Resources */,
+				4CCF49822ABEC56E00FC8DAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6E325D125BFE41FDE10264C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HouseSharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCF49732ABEC56E00FC8DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCF497F2ABEC56E00FC8DAE /* HouseListingViewController.swift in Sources */,
+				4CCF497B2ABEC56E00FC8DAE /* AppDelegate.swift in Sources */,
+				4CCF49972ABED99B00FC8DAE /* DetailViewController.swift in Sources */,
+				4CCF497D2ABEC56E00FC8DAE /* SceneDelegate.swift in Sources */,
+				4CCF49952ABED67A00FC8DAE /* HouseListingTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CCF49802ABEC56E00FC8DAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCF49812ABEC56E00FC8DAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CCF49852ABEC56F00FC8DAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCF49862ABEC56F00FC8DAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CCF49892ABEC56F00FC8DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CCF498A2ABEC56F00FC8DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CCF498C2ABEC56F00FC8DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455B980DE6C0C365761E5514 /* Pods-HouseSharing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HouseSharing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.try.HouseSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CCF498D2ABEC56F00FC8DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B393527E342270F231BE8EC /* Pods-HouseSharing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HouseSharing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.try.HouseSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCF49722ABEC56E00FC8DAE /* Build configuration list for PBXProject "HouseSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCF49892ABEC56F00FC8DAE /* Debug */,
+				4CCF498A2ABEC56F00FC8DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCF498B2ABEC56F00FC8DAE /* Build configuration list for PBXNativeTarget "HouseSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCF498C2ABEC56F00FC8DAE /* Debug */,
+				4CCF498D2ABEC56F00FC8DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4CCF498E2ABEC65400FC8DAE /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+		4CCF49912ABED18100FC8DAE /* XCRemoteSwiftPackageReference "SwiftSoup.git" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4CCF498F2ABEC65400FC8DAE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CCF498E2ABEC65400FC8DAE /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			productName = Alamofire;
+		};
+		4CCF49922ABED18100FC8DAE /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CCF49912ABED18100FC8DAE /* XCRemoteSwiftPackageReference "SwiftSoup.git" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4CCF496F2ABEC56E00FC8DAE /* Project object */;
+}

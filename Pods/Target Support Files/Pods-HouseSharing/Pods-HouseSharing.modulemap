@@ -1,0 +1,6 @@
+framework module Pods_HouseSharing {
+  umbrella header "Pods-HouseSharing-umbrella.h"
+
+  export *
+  module * { export * }
+}
